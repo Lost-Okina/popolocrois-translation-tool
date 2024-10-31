@@ -2,7 +2,9 @@
 A user-friendly tool for editing dialogue and cutscenes in the Japanese-only PSX games PopoloCrois Monogatari II and PopoRogue.
 
 If you are looking for currently released patches made via this tool, please see:
+
 PopoloCrois Monogatari II English - https://romhackplaza.org/translations/popolocrois-monogatari-ii-english-translation-playstation/
+
 PopoRogue English - TBD Very Soon
 
 ## How to Use
