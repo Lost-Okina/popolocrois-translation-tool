@@ -1,6 +1,10 @@
 # PopoloCrois Translation Tool
 A user-friendly tool for editing dialogue and cutscenes in the Japanese-only PSX games PopoloCrois Monogatari II and PopoRogue.
 
+If you are looking for currently released patches made via this tool, please see:
+PopoloCrois Monogatari II English - https://romhackplaza.org/translations/popolocrois-monogatari-ii-english-translation-playstation/
+PopoRogue English - TBD Very Soon
+
 ## How to Use
 After opening the executable, you will be able to open one of the game's scene files directly into the editor. This does mean there is a dependency on an image extracting tool, otherwise the tool will not handle disk format compression and fail to load all relevant game data. So, when using this tool, please extract out the file that you want to work with first, then import it back when finished.
 
