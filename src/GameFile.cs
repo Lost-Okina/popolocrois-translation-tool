@@ -479,9 +479,9 @@ namespace PopoloCroisTranslationTool
                         (bytes[i + 0] == 'N' && bytes[i + 1] == 'P' && bytes[i + 2] == 'X' && bytes[i + 3] == '\0'))
                     {
                         gameType = GameType.PopoRogue;
-
-                        textPointer = bytes[i + 8] + (bytes[i + 9] * 256);
                     }
+
+                    textPointer = bytes[i + 8] + (bytes[i + 9] * 256);
 
                     return true;
                 }
@@ -586,7 +586,14 @@ namespace PopoloCroisTranslationTool
 
                     if (textPointer > 0)
                     {
-                        file.Position += textPointer - 32;
+                        if (gameType == GameType.PopoRogue)
+                        {
+                            file.Position += textPointer - 32;
+                        }
+                        else
+                        {
+                            file.Position += textPointer - 96;
+                        }
                     }
 
                     // Begin looping through memory looking for the memory signature of the pointer list beginning
